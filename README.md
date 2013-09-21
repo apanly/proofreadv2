@@ -38,16 +38,16 @@
   打开了这几行注释：
 
   >   # Linux     (Ubuntu 11.10 64-bit, Python 2.7.2, OpenJDK 1.7)
-
-     PREFIX_PYTHON=/usr
-
-     ANT=ant
-
-     PYTHON=$(PREFIX_PYTHON)/bin/python
-
-     JCC=$(PYTHON) -m jcc --shared
-
-     NUM_FILES=3
+  
+       PREFIX_PYTHON=/usr
+  
+       ANT=ant
+  
+       PYTHON=$(PREFIX_PYTHON)/bin/python
+  
+       JCC=$(PYTHON) -m jcc --shared
+  
+       NUM_FILES=3
 
    修改-m jcc 为 -m jcc.__main__
 * 编译安装
