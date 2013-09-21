@@ -37,7 +37,7 @@
 * 修改Makeifle 根据自己的版本打开不同的地方
   打开了这几行注释：
 
-   # Linux     (Ubuntu 11.10 64-bit, Python 2.7.2, OpenJDK 1.7)
+  >   # Linux     (Ubuntu 11.10 64-bit, Python 2.7.2, OpenJDK 1.7)
 
      PREFIX_PYTHON=/usr
 
